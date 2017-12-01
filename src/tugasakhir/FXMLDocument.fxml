@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="717.0" prefWidth="1094.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.FXMLDocumentController">
+    <children>
+      <AnchorPane layoutX="-15.0" layoutY="-1.0" prefHeight="760.0" prefWidth="1129.0">
+         <children>
+            <Pane fx:id="menghitung" layoutX="14.0" prefHeight="760.0" prefWidth="1115.0" style="-fx-background-color: #5f9ea0;">
+               <children>
+                  <Label layoutX="379.0" layoutY="29.0" text="ATK Kantor ku">
+                     <font>
+                        <Font name="Broadway" size="45.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="750.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="124.0" layoutY="354.0" text="Rp.125.000">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="391.0" layoutY="362.0" text="Rp.120.000">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="672.0" layoutY="362.0" text="Rp.130.000">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="919.0" layoutY="363.0" text="Rp.300.000">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="931.0" layoutY="654.0" text="Rp.150.000">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="672.0" layoutY="654.0" text="Rp.100.000">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="391.0" layoutY="654.0" text="Rp.250.000">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="124.0" layoutY="654.0" text="Rp.180.000">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <JFXCheckBox fx:id="pak1" layoutX="118.0" layoutY="330.0" onAction="#paket1" text="Paket 1">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </JFXCheckBox>
+                  <JFXCheckBox fx:id="pak2" layoutX="386.0" layoutY="330.0" onAction="#paket2" text="Paket 2">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </JFXCheckBox>
+                  <JFXCheckBox fx:id="pak3" layoutX="667.0" layoutY="330.0" onAction="#paket3" text="Paket 3">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </JFXCheckBox>
+                  <JFXCheckBox fx:id="pak4" layoutX="913.0" layoutY="330.0" onAction="#paket4" text="Paket 4">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </JFXCheckBox>
+                  <JFXCheckBox fx:id="pak5" layoutX="118.0" layoutY="631.0" onAction="#paket5" text="Paket 5">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </JFXCheckBox>
+                  <JFXCheckBox fx:id="pak6" layoutX="379.0" layoutY="631.0" onAction="#paket6" text="Paket 6">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </JFXCheckBox>
+                  <JFXCheckBox fx:id="pak7" layoutX="660.0" layoutY="631.0" onAction="#paket7" text="Paket 7">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </JFXCheckBox>
+                  <JFXCheckBox fx:id="pak8" layoutX="925.0" layoutY="631.0" onAction="#paket8" text="Paket 8">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </JFXCheckBox>
+                  <JFXButton fx:id="btnhitung" layoutX="883.0" layoutY="698.0" onAction="#hitung" prefHeight="27.0" prefWidth="193.0" style="-fx-background-color: gray;" text="Hitung">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="63.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../gambar/Untitled-1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="307.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="331.0" layoutY="102.0">
+                     <image>
+                        <Image url="@../gambar/Untitled-2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="595.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="605.0" layoutY="102.0">
+                     <image>
+                        <Image url="@../gambar/Untitled-3.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="877.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="877.0" layoutY="102.0">
+                     <image>
+                        <Image url="@../gambar/Untitled-4.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="200.0" fitWidth="318.0" layoutX="63.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../gambar/Untitled-5.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="200.0" fitWidth="225.0" layoutX="332.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../gambar/Untitled-6.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="605.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../gambar/Untitled-7.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="877.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../gambar/Untitled-8.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
